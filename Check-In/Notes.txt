@@ -1,0 +1,16 @@
+http://stackoverflow.com/questions/9605913/how-to-parse-json-in-android
+
+Permissions:
+NFC
+Internet
+
+Add dependencies for google library things
+
+Setup credentials files and add them to .gitignore file
+	Store them within the app/src/main/res/values as an xml file
+
+Example setup:
+<resources>
+    <string name="usernameValue">MyUserName</string>
+    <string name="passwordValue">MyPassword</string>
+</resources>
